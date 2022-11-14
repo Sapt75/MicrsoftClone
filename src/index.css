@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.banner1, .banner2 {
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+}
+
+.pic {
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+}
+
+.text1 {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+
+.text2 {
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+}
+.banner1{
+    animation: slide1 6s linear infinite;
+}
+.banner2{
+    animation: slide2 6s linear infinite;
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+.icon{
+    position: relative;
+    top: 35rem;
+    left: 5rem;
+}
+
+.contain{
+    padding: 19.5rem;
+}
+
+.edge{
+    padding: 3rem;
+    position: absolute;
+    width: 28rem;
+    height: 17rem;
+    background: white;
+    top: 92rem;
+    left: 8rem;
+}
+
+li{
+    padding: 8px 0;
+    color: #616161;
+    font-size: 11px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.headr{
+    color: #616161;
+    padding: 8px 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
