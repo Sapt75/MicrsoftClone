@@ -29,46 +29,64 @@ body{
     top: 7rem;
     left: 8rem;
 }
-.banner1{
-    animation: slide1 6s linear infinite;
+
+.ban1left{
+    animation: left1 ;
+    animation-duration: 1.5s;
 }
-.banner2{
-    animation: slide2 6s linear infinite;
+
+.ban2left{
+    animation:left2;
+    animation-duration: 1.5s;
 }
-@keyframes slide1{
+
+.ban1right{
+    animation: right1 ;
+    animation-duration: 1.5s;
+}
+
+.ban2right{
+    animation:right2;
+    animation-duration: 1.5s;
+}
+
+@keyframes right1{
     0%{
-        visibility: visible;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: hidden;
-    }
-    75%{
-        visibility: hidden;
+        left: 100%;
     }
     100%{
-        visibility: visible;
+        left: 0%;
     }
 }
-@keyframes slide2{
+
+@keyframes right2{
     0%{
-        visibility: hidden;
-    }
-    25%{
-        visibility: hidden;
-    }
-    50%{
-        visibility: visible;
-    }
-    75%{
-        visibility: hidden;
+        right: 0%;
     }
     100%{
-        visibility: hidden;
+        right: 100%;
     }
 }
+
+@keyframes left1{
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+
+@keyframes left2{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
 
 .icon{
     position: relative;

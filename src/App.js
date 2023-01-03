@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Carousel />
-      <Blog />
+      {/* <Blog />
       <Edge />
       <Business />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
