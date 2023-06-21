@@ -6,7 +6,13 @@ body{
     overflow-x: hidden;
 }
 
-.banner1, .banner2 {
+.banner1 {
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+}
+
+.banner2 {
     width: 100%;
     position: absolute;
     top: 2rem;
@@ -87,13 +93,6 @@ body{
 }
 
 
-
-.icon{
-    position: relative;
-    top: 35rem;
-    left: 5rem;
-}
-
 .contain{
     padding: 19.5rem;
 }
@@ -130,4 +129,16 @@ li:hover{
 
 .drop{
     width: 80rem;
+}
+
+.imag{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP5-1596x600");
+    background-size: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .imag{
+        display: none;
+    }
 }

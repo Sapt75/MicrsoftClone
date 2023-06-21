@@ -26,7 +26,7 @@ const Navbar = () => {
         <>
             {width >= 860 ? <div className='md:pl-5 lg:pl-10'>
                 <ul className='flex float-left'>
-                    <li className='my-3 mr-4'><a href='/'><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" className='md:w-20 lg:w-24' /></a></li>
+                    <li className='my-3 mr-4'><a href='/'><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" className='md:w-20 lg:w-24' alt='' /></a></li>
                     <a href='https://www.microsoft.com/en-in/microsoft-365?rtc=1'><li className='mr-5 my-3 md:text-xs lg:text-sm hover:underline cursor-pointer'>Microsoft365</li></a>
                     <a href='https://www.microsoft.com/en-in/microsoft-teams/group-chat-software?rtc=1'><li className='mr-5  my-3 md:text-xs lg:text-sm hover:underline cursor-pointer'>Teams</li></a>
                     <a href='https://www.microsoft.com/en-in/windows/'><li className='mr-5 my-3 md:text-xs lg:text-sm hover:underline cursor-pointer'>Windows</li></a>
@@ -105,13 +105,13 @@ const Navbar = () => {
                     <p className='my-5 md:text-xs lg:text-sm md:mr-1 lg:mr-5 hover:underline cursor-pointer'>Cart<ShoppingCartOutlinedIcon fontSize='small' className='mx-1' /></p>
                     <p className='my-5 md:text-xs lg:text-sm md:mr-1 lg:mr-5 hover:underline cursor-pointer'>Sign in<AccountCircleOutlinedIcon fontSize='small' className='mx-1' /></p>
                 </div>
-            </div> : <div className='flex float-right xs:space-x-15 px:space-x-17 ms:space-x-20 mm:space-x-36 md:space-x-64 ma:space-x-66 px-2'>
+            </div> : <div className='flex float-right xs:space-x-15 px:space-x-17 ms:space-x-20 mm:space-x-36 sm:space-x-48 md:space-x-64 ma:space-x-66 px-2'>
                 <ul className='py-4 space-x-5'>
                     <MenuIcon fontSize='small' />
                     <SearchIcon fontSize='small' />
                 </ul>
                 <ul className='py-2'>
-                    <li><a href='/'><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" className='xs:w-28 sm:w-28' /></a></li>
+                    <li><a href='/'><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" className='xs:w-28 sm:w-28' alt='' /></a></li>
                 </ul>
                 <ul className='flex float-right py-4 space-x-5'>
                     <ShoppingCartOutlinedIcon fontSize='small' />
